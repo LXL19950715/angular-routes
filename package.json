@@ -1,0 +1,29 @@
+{
+  "name": "routes",
+  "version": "1.0.0",
+  "description": "practice using angular routes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dant00ine/angular-routes.git"
+  },
+  "keywords": [
+    "routing",
+    "angular"
+  ],
+  "author": "Daniel Deloucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dant00ine/angular-routes/issues"
+  },
+  "homepage": "https://github.com/dant00ine/angular-routes#readme",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.8"
+  }
+}
