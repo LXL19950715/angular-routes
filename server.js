@@ -4,15 +4,17 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-app.use(express.static("./static"));
+// app.use(express.static(__dirname + "/static/"));
+
+app.use(express.static('static'));
 
 app.use(bodyParser.json());
 
-app.get('/', function(req, res){
-	response.render('index')
-})
+// app.get('/', function(req, res){
+// 	res.redirect('index.html');
+// })
 
-require('./server/config/mongoose.js');
+// require('./server/config/mongoose.js');
 
 app.listen(8000, function(){
 	console.log("--------LISTENING--------")
